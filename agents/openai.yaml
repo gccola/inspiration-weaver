@@ -1,0 +1,4 @@
+interface:
+  display_name: "灵感编织器"
+  short_description: "把零散灵感、梦境与未完成片段整理成保留个人声音的完整文字，并支持每日自动汇总"
+  default_prompt: "使用 $inspiration-weaver，把我的零散灵感、梦境或片段整理成保留个人声音的完整文字；需要时配置 OpenClaw 每日自动收集与整理。"

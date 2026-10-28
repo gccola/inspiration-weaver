@@ -1,0 +1,10 @@
+{
+  "triggerPrefixes": ["~"],
+  "triggerTags": [],
+  "allowedChannelIds": [],
+  "allowedConversationIds": [],
+  "allowedSenderIds": [],
+  "captureAllowedSourcesWithoutTag": true,
+  "inboxPath": "",
+  "maxTextLength": 50000
+}
