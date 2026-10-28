@@ -39,12 +39,14 @@ Copy the directory before starting or restarting the Gateway. The managed hook
 directory is `<stateDir>/hooks/`; use the actual state directory when it has been
 customized.
 
-After copying and configuring, restart the Gateway because hook code and
-metadata are not watched. Then inspect, enable, and validate the hook:
+Run these commands on the Gateway host. Inspect and enable the hook, then
+restart the Gateway because hook code and metadata are not watched:
 
 ```bash
+openclaw hooks list --verbose
 openclaw hooks info inspiration-inbox-capture
 openclaw hooks enable inspiration-inbox-capture
+openclaw gateway restart
 openclaw hooks check
 ```
 
